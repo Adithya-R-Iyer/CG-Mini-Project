@@ -3183,10 +3183,10 @@ void WP_drawThoughtBubble() {
 	drawCircle(660, 460, 240, 240, 240, 1, 1, wp_tb_big);
 
 	// Text inside Thought Bubble
-	print("Is this what I want to be doing",
+	print("Is this what I got to be doing",
 		0, 0, 0, wp_tb_text, 480, 480, .075, .075, 1);
 
-	print("for the rest of my life?",
+	print("for the rest of my life ??",
 		0, 0, 0, wp_tb_text, 505, 460, .075, .075, 1);
 }
 
