@@ -458,15 +458,15 @@ void introduction() {
 	glClear(GL_COLOR_BUFFER_BIT);
 
 	// Story Title
-	print("The Epilogue of Education",
+	print("THE EPILOGUE OF EDUCATION",
 		1, 1, 1, title_fade, 280, 380, .3, .3, 2);
 
-	print("by Raja Rajan A.",
+	print("by :- R Aditya Iyer  and  Madan R",
 		1, 1, 1, title_fade, 790, 345, .15, .15, 1);
-	print("(1DS15CS417)",
+	print("     4SF20CS094                   4SF20CS061",
 		1, 1, 1, title_fade, 840, 320, .1, .1, 1);
 
-	print("Press N to read the story...",
+	print(" PRESS N to move in the story line...",
 		1, 1, 1, intro_next_text_appear, 560, 10, .09, .09, 1);
 }
 
@@ -505,7 +505,7 @@ void summary() {
 	print("for the rest of out lives.",
 		1, 1, 1, summary_para4_fade, 75, 225, .125, .125, 1.25);
 
-	print("Press N to move on...",
+	print("Press N to keep up with the story...",
 		1, 1, 1, summary_next_text_appear, 580, 10, .09, .09, 1);
 }
 
@@ -800,7 +800,7 @@ void kindergartenTitleScreen() {
 	// Story Title
 	print("CHAPTER 1",
 		1, 1, 1, kg_chap_fade, 300 + trans_x_chap1, 400, .2, .2, 2);
-	print("Kindergarten",
+	print("Anganawadi",
 		1, 1, 1, kg_title_fade, 300 + trans_x_title1, 350, .3, .3, 2);
 }
 
@@ -840,17 +840,11 @@ void kindergarten() {
 	KG_drawKidsHead(460, 0);
 	KG_drawKidsHead(600, 0);
 
-	print("A",
+	print("Twinkle Twinkle",
 		1, 1, 1, kg_a_fade, 600, 440, .3, .3, 3);
 
-	print("- Apple",
-		1, 1, 1, kg_apple_fade, 655, 445, .2, .2, 1);
-
-	print("B",
+	print("Little Star",
 		1, 1, 1, kg_b_fade, 600, 380, .3, .3, 3);
-
-	print("- Ball",
-		1, 1, 1, kg_ball_fade, 655, 385, .2, .2, 1);
 
 	print("... and so on",
 		1, 1, 1, kg_soon_fade, 560, 220, .2, .2, 1.5);
@@ -878,7 +872,7 @@ void primarySchoolTitleScreen() {
 void PS_drawCeiling() {
 	// Ceiling
 	glBegin(GL_POLYGON);
-	glColor3ub(65, 105, 120); // Aqua
+	glColor3ub(146,228,175); // Light Summer Green
 	glVertex2f(0, 800);
 	glVertex2f(0, 700);
 	glVertex2f(100, 650);
@@ -901,7 +895,7 @@ void PS_drawCeiling() {
 void PS_drawSideWall() {
 	// Side Wall
 	glBegin(GL_POLYGON);
-	glColor3ub(176, 204, 217); // Light Aqua
+	glColor3ub(142, 189, 153); // Summer Green
 	glVertex2f(0, 700);
 	glVertex2f(100, 650);
 	glVertex2f(100, 200);
@@ -922,7 +916,7 @@ void PS_drawSideWall() {
 void PS_drawCenterWall() {
 	// Center Wall
 	glBegin(GL_POLYGON);
-	glColor3ub(120, 160, 175);
+	glColor3ub(146,228,175); // Light Summer Green
 	glVertex2f(100, 650);
 	glVertex2f(700, 650);
 	glColor3ub(164, 191, 203);
@@ -944,7 +938,7 @@ void PS_drawCenterWall() {
 void PS_drawDividingWall() {
 	// Dividing Wall
 	glBegin(GL_POLYGON);
-	glColor3ub(176, 204, 217); // Light Aqua
+	glColor3ub(142, 189, 153); // Summer Green
 	glVertex2f(700, 650);
 	glVertex2f(850, 800);
 	glVertex2f(850, 75);
@@ -965,7 +959,7 @@ void PS_drawDividingWall() {
 void PS_drawKitchenWall() {
 	// Kitchen Wall
 	glBegin(GL_POLYGON);
-	glColor3ub(164, 191, 203);
+	glColor3ub(146,228,175);
 	glVertex2f(850, 800);
 	glVertex2f(1400, 800);
 	glVertex2f(1400, 75);
@@ -986,7 +980,7 @@ void PS_drawKitchenWall() {
 void PS_drawFloor() {
 	// Floor
 	glBegin(GL_POLYGON);
-	glColor3ub(120, 160, 175);
+	glColor3ub(100, 100, 100);
 	glVertex2f(100, 200);
 	glVertex2f(700, 200);
 	glVertex2f(850, 75);
@@ -1077,7 +1071,7 @@ void PS_drawKitchenCounter() {
 
 void PS_drawKitchen() {
 	glBegin(GL_POLYGON);
-	glColor3ub(247, 239, 187);
+	glColor3ub(207,215,204);
 	glVertex2f(950, 550);
 	glVertex2f(1300, 550);
 	glVertex2f(1300, 300);
@@ -1118,7 +1112,7 @@ void primarySchool() {
 	glClearColor(0.05, 0.05, 0.05, 1.0);
 	glClear(GL_COLOR_BUFFER_BIT);
 
-	print("KID: Mom, can I go out and play football with the other kids?",
+	print("Aditya: Mom, can I go out and play football with the other kids?",
 		1, 1, 1, ps_subtitle_1_appear, 300, 30 + trans_subtitle_1_done, .14, .14, 1);
 
 	print("MOM: No, you have to complete your homework first, until then no playing, no TV.",
@@ -1812,7 +1806,7 @@ void highSchool() {
 		.5, .5,
 		255, 0, 0);
 
-	print("Home -> School -> Tuition -> Home -> School -> Tuition -> Home -> School -> Tuition",
+	print("Home -> School -> Tuition -> Home -> School -> Tuition -> Home",
 		1, 1, 1, hs_subtitle_1_appear, 80, 30, .14, .14, 1);
 }
 
@@ -2053,81 +2047,6 @@ void PUC_drawLeftDoors() {
 		223, 189, 31, // Goldish Yellow
 		1, 1,
 		5);
-
-	// Second Door
-	glBegin(GL_POLYGON);
-	glColor3ub(210, 210, 210);
-	glVertex2f(450, 164);
-	glVertex2f(550, 184);
-	glVertex2f(550, 413);
-	glVertex2f(450, 447);
-	glEnd();
-
-	// Second Door Border
-	glBegin(GL_LINE_LOOP);
-	glColor3ub(20, 20, 20);
-	glVertex2f(450, 164);
-	glVertex2f(550, 184);
-	glVertex2f(550, 413);
-	glVertex2f(450, 447);
-	glEnd();
-
-	// Second Wooden Door
-	glBegin(GL_POLYGON);
-	glColor3ub(63, 36, 19);
-	glVertex2f(450, 164);
-	glVertex2f(540, 194);
-	glVertex2f(540, 403);
-	glVertex2f(450, 447);
-	glEnd();
-
-	// Second Wooden Door Border
-	glBegin(GL_LINE_LOOP);
-	glColor3ub(20, 20, 20);
-	glVertex2f(450, 164);
-	glVertex2f(540, 194);
-	glVertex2f(540, 403);
-	glVertex2f(450, 447);
-	glEnd();
-
-	// CEBA
-	glPushMatrix();
-
-	glTranslatef(325, 10, 0);
-	glScalef(.8, .8, 1);
-
-	glBegin(GL_POLYGON);
-	glColor3ub(255, 255, 255);
-	glVertex2f(140, 520);
-	glVertex2f(140, 490);
-	glVertex2f(250, 490);
-	glVertex2f(250, 520);
-	glEnd();
-
-	glBegin(GL_LINE_LOOP);
-	glColor3ub(20, 20, 20);
-	glVertex2f(140, 520);
-	glVertex2f(140, 490);
-	glVertex2f(250, 490);
-	glVertex2f(250, 520);
-	glEnd();
-
-	drawCircle(138, 510, 100, 100, 100, 1, 1, 3);
-	drawCircle(142, 510, 100, 100, 100, 1, 1, 3);
-
-	drawCircle(138, 499, 100, 100, 100, 1, 1, 3);
-	drawCircle(142, 499, 100, 100, 100, 1, 1, 3);
-
-	print("C E B A",
-		0, 0, 0, 1, 160, 500, .1, .1, 2);
-
-	glPopMatrix();
-
-	// Door Knob
-	drawCircle(530, 300,
-		223, 189, 31, // Goldish Yellow
-		1, 1,
-		3);
 }
 
 void PUC_drawRightDoors() {
@@ -2298,7 +2217,7 @@ void PUC_drawBoard() {
 
 	// Board
 	glBegin(GL_POLYGON);
-	glColor3ub(0, 131, 255);
+	glColor3ub(0, 0, 1);
 	glVertex2f(452, 748);
 	glColor3ub(0, 104, 204);
 	glVertex2f(452, 602);
@@ -2307,13 +2226,13 @@ void PUC_drawBoard() {
 	glVertex2f(948, 748);
 	glEnd();
 
-	print("H A R V A R D",
+	print("E X P E R T",
 		1, 1, 1, 1, 565, 690, .2, .2, 4);
 
 	print("Pre University College",
 		1, 1, 1, 1, 530, 660, .15, .15, 2);
 
-	print("BENGALURU",
+	print("MANGALURU",
 		1, 1, 1, 1, 650, 630, .12, .12, 1);
 }
 
@@ -2357,7 +2276,7 @@ void engineeringCollegeTitleScreen() {
 	// Story Title
 	print("CHAPTER 5",
 		1, 1, 1, eng_chap_fade, 300 + trans_x_chap5, 400, .2, .2, 2);
-	print("Engineering College",
+	print("Engineering",
 		1, 1, 1, eng_title_fade, 400 - trans_x_title5, 350, .3, .3, 2);
 }
 
@@ -2814,13 +2733,13 @@ void EC_drawBoard() {
 	glVertex2f(505, 755);
 	glEnd();
 
-	print("Las Vegas Institute of Technology",
+	print("Sahyadri Institute Of Technology",
 		1, 1, 1, 1,
 		530, 715,
 		.1, .1,
 		1);
 
-	print("Affiliated to VTU, Belagavi",
+	print("An Autonomous Institution",
 		1, 1, 1, 1,
 		590, 695,
 		.08, .08,
